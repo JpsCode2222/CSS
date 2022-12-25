@@ -1,0 +1,133 @@
+.Color_box{
+    height: 500px;
+    width: 500px;
+    float:left;
+    /*Name*/
+    background-color: red;
+    /*Hex*/
+    background-color: #ff00ff;
+    background-color: #8af542;
+    /*rgb*/
+    background-color:rgb(0,0,222);
+                                                    /*0-->255 range lite */
+    /*rgba*/
+    background-color:rgba(255, 00, 255, 1.0);
+    /*rgba a-->                                     Opacity range 0.1-1.0*/
+    opacity: 0.2;
+                                                    /*Opacity use for (background + content) blur sathi  range 0.1 --> 1.0*/
+    /*hsl*/  /*hue saturation lightness*/
+    background-color: hsl(120, 100%, 50%);
+                                                    /*h--> 0-->360  0-->120  120-->240  240-360*/
+                                                    /*s--> 0-->100%*/
+                                                    /*l-->(black)0-->100%(white)*/
+}
+.color_item{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1AQNwSX_kwN-0ywPC0pHI5nOiWnZGVj2Vw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.color_item1{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-color: hsla(240, 100%, 50%, 0.5);
+    background-size: 100% 100%;
+}
+
+
+/*Demo Color 1*/
+.Background_div{
+    height: 700px;
+    width: 100%;
+    float: left;
+    background-image: url("https://img.freepik.com/premium-photo/rows-acoustic-music-soundproof-foam-pyramid-panel-with-blue-lighting_97694-12243.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.backinner{
+    height: 420px;
+    width: 25%;
+    float: left;
+}
+.backinner2{
+    height: 420px;
+    width: 20%;
+    float: left;
+}
+.Inner_div{
+    height: 70px;
+    width: 150px;
+    color: white;
+    border:2px solid red;
+    background-color:hsla(118, 97%, 57%, 0.374);
+    margin-left: 170px;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Inner_div1{
+    height: 70px;
+    width: 150px;
+    color: white;
+    border:2px solid red;
+    background-color:hsla(118, 97%, 57%, 0.374);
+    margin-left: 150px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 10px;
+}
+.formdiv{
+    height:80%;
+    width:20%;
+    float: left;
+    background-color: hsla(240, 85%, 24%,0.464);
+    margin-left: 20%;
+    margin-top: 2%;
+    border: 2px solid red;
+    border-radius: 10px;
+    border-left:1px solid red;
+    border-right:1px solid red;
+}
+.imgage_div{
+    height: 280px;
+    width: 45%;
+    float: left;
+    background-color:black;
+}
+.Outerbackdiv{
+    height: 700px;
+    width: 100%;
+    float: left;
+    background-image: url("https://img.freepik.com/premium-photo/rows-acoustic-music-soundproof-foam-pyramid-panel-with-blue-lighting_97694-12243.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.innerdivdemo61{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: transparent;
+}
+.innerdivdemo62{
+    height: 80%;
+    width: 50%;
+    float: left;
+}
+.innerdivdemo63{
+    height: 34%;
+    width: 40%;
+    clear:left;
+    background-image: url("pngegg.png");
+    background-size: 100%;
+    margin-top: 460px;
+    margin-left: 35%;
+}
+.divin{
+    height: 380px;
+    width:50%;
+    float: left;
+}
+

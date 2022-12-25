@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            margin: 20px 50px;
+        }
+        .circle{
+            border-radius: 50%;
+        }
+        .inner-border{
+            border: 20px solid black;
+            box-shadow: inset 0px 0px 20px 0px red;
+            box-sizing: border-box;
+        }
+        .inner-outline{
+            outline: 10px solid blueviolet;
+            outline: offset 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Border inside rectangle and circular shape</h2>
+    <div class="box circle inner-border"></div>
+    <div class="box inner-border"></div>
+    <hr>
+    <h2>Outline inside rectangular shape</h2>
+    <div class="box inner-outline"></div>
+</body>
+</html>
